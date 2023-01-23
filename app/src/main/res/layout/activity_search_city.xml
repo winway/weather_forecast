@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".SearchCityActivity">
+
+    <EditText
+        android:id="@+id/search_input_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/search_submit_iv"
+        android:background="@drawable/search_box_background"
+        android:hint="搜索国内城市"
+        android:padding="3dp" />
+
+    <ImageView
+        android:id="@+id/search_submit_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:src="@mipmap/icon_search" />
+
+    <TextView
+        android:id="@+id/search_hot_city_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_input_et"
+        android:layout_marginTop="20dp"
+        android:text="热门城市"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <GridView
+        android:id="@+id/search_hot_city_gv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_hot_city_tv"
+        android:numColumns="5" />
+
+</RelativeLayout>

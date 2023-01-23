@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/weather_forecast/app/src/main/res/drawable/hot_city_background.xml" value="0.1335" />
+        <entry key="..\:/AndroidStudioProjects/weather_forecast/app/src/main/res/drawable/search_box_background.xml" value="0.1335" />
+        <entry key="..\:/AndroidStudioProjects/weather_forecast/app/src/main/res/drawable/weather_background.xml" value="0.1335" />
+        <entry key="..\:/AndroidStudioProjects/weather_forecast/app/src/main/res/layout/activity_city_manage.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/weather_forecast/app/src/main/res/layout/activity_delete_city.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/weather_forecast/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/weather_forecast/app/src/main/res/layout/activity_more.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/weather_forecast/app/src/main/res/layout/activity_search_city.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/weather_forecast/app/src/main/res/layout/fragment_weather.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/weather_forecast/app/src/main/res/layout/item_gridview_search_city.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/weather_forecast/app/src/main/res/layout/item_listview_city.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/weather_forecast/app/src/main/res/layout/item_listview_delete_city.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/weather_forecast/app/src/main/res/layout/item_listview_weather_future.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/weather_forecast/app/src/main/res/layout/item_weather_future.xml" value="0.22826086956521738" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

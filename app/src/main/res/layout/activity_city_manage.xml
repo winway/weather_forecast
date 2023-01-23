@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CityManageActivity">
+
+    <RelativeLayout
+        android:id="@+id/city_manage_top_rl"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#F5F5F5">
+
+        <ImageView
+            android:id="@+id/city_manage_top_back_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:src="@mipmap/icon_back" />
+
+        <TextView
+            android:id="@+id/city_manage_top_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="城市管理"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/city_manage_top_modify_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:src="@mipmap/icon_write" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/city_manage_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/city_manage_top_rl"
+        android:background="#DCDCDC" />
+
+    <ListView
+        android:id="@+id/city_manage_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/city_manage_line"
+        android:divider="@null" />
+
+    <ImageView
+        android:id="@+id/city_manage_add_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:background="#87CEEB"
+        android:padding="3dp"
+        android:src="@mipmap/icon_add" />
+
+</RelativeLayout>

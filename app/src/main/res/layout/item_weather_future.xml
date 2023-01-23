@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/item_future_date_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:text="周六" />
+
+    <TextView
+        android:id="@+id/item_future_condition_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/item_future_date_tv"
+        android:textSize="16sp"
+        tools:text="晴" />
+
+    <TextView
+        android:id="@+id/item_future_temp_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:textSize="16sp"
+        tools:text="9~-1℃" />
+
+    <ImageView
+        android:id="@+id/item_future_pic_iv"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toStartOf="@id/item_future_temp_tv"
+        tools:src="@mipmap/icon_add" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/item_future_date_tv"
+        android:layout_marginTop="5dp"
+        android:background="#E0E0E0" />
+
+</RelativeLayout>
